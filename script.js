@@ -1,19 +1,3 @@
-// const menuBar = document.querySelector(".menu-bars");
-// const overlay = document.querySelector(".overlay");
-// menuBar.addEventListener("click", function () {
-//   menuBar.classList.toggle("change");
-//   overlay.classList.toggle("overlay-active");
-//   if (overlay.classList.contains("overlay-active")) {
-//     console.log("yes");
-//     overlay.classList.add("overlay-slide-right");
-//     overlay.classList.remove("overlay-slide-left");
-//   } else {
-//     console.log("no");
-
-//     overlay.classList.add("overlay-slide-left");
-//   }
-// });
-
 const menuBar = document.querySelector(".menu-bars");
 const overlay = document.querySelector(".overlay");
 const nav = document.querySelectorAll("[class^='nav']");
